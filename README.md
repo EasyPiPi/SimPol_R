@@ -40,7 +40,7 @@ Please install all required packages before running SimPol. One way of doing it 
 that install all these packages via [conda](https://docs.conda.io/en/latest/),
 
 ```
-conda create -n simpol -c conda-forge -c bioconda r-optparse r-matrix bioconductor-rtracklayer
+conda create -n simpol -c conda-forge -c bioconda "r-base>=4.0" r-optparse r-matrix bioconductor-rtracklayer
 ```
 
 Once installed, you can activate the environment then run SimPol within it,
